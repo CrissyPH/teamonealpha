@@ -13,6 +13,7 @@ import { ServerSection } from "./server-section";
 import { ServerChannel } from "./server-channel";
 import { ServerMember } from "./server-member";
 
+
 interface ServerSidebarProps {
   serverId: string;
 }
