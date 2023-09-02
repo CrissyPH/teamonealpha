@@ -59,6 +59,7 @@ const InviteCodePage = async ({
 
     if(server) {
         return redirect(`/servers/${server.id}`);
+        console.log(server)
     }
 
     return null;
@@ -66,7 +67,8 @@ const InviteCodePage = async ({
 
     return (
         <div>
-            Hello Invite
+            Hello Invite 
+            c
         </div>
     );
 }
