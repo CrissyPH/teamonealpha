@@ -67,8 +67,7 @@ const InviteCodePage = async ({
 
     return (
         <div>
-            Hello Invite 
-            c
+            Hello Invite
         </div>
     );
 }
